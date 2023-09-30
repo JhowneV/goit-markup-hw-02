@@ -1,0 +1,20 @@
+:root { 
+    color: var(--iris, #4D5AE5);
+    color: var(--white, #FFFFFF);
+    color: var(--navy, #2E2F42);
+    color: var(--slate, #434455);
+    color: var(--cloud, #F4F4FD);
+}
+
+.logo span {
+    color: var(--iris);
+}
+
+.logo:first-child {
+    color: var(--navy)
+}
+
+.logo:last-child {
+    color: var(--cloud)
+}
+
